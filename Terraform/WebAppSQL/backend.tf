@@ -6,3 +6,13 @@ terraform {
     # key                  = "terraform.tfstate"
   }
 }
+
+terraform {
+  cloud {
+    organization = "sparkfish-devops"
+
+    workspaces {
+      name = "azure-poc"
+    }
+  }
+}
