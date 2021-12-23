@@ -1,8 +1,1 @@
 resource_group_name = "ignition"
-resource_group_location = "Central US"
-app_service_plan_name = "ignition-ASP"
-app_service_name = "sparkfish-ignition"
-sql_server_name = "ignition-sql"
-sql_database_name = "Ignition"
-sql_admin_login = "sparkfishadmin"
-sql_admin_password = "$p@rkF!$h"
